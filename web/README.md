@@ -140,9 +140,13 @@ export default theme;
 
 1. add this line in `scripts` object
 
--   `"prepare": "husky install"`
+-   if husky is to be added to root of the project =>
+    `"prepare": "husky install"`
+    OR
+-   if husky is to be added to a specific folder e.g web =>
+    `"prepare": "cd ../ && husky install ./web/.husky"`
 
-2. then run `yarn prepare`
+2. then run `yarn prepare` OR `cd ./web && yarn precommit` based on where the root of the folder is (refer to previous point).
 
 3. add this code as new object
 
