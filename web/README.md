@@ -1,7 +1,3 @@
-# landing
-
-Landing page frontend and backend code.
-
 # Project setup with Next.js
 
 ## Using prettier, eslint and husky
