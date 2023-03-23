@@ -1,6 +1,6 @@
 # Project setup with Next.js
 
-## Using prettier, eslint and husky
+## Using prettier, eslint and husky.
 
 ### **Install next.js package**
 
